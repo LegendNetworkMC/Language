@@ -1,0 +1,29 @@
+{
+    "name": "legendnetwork/language",
+    "description": "Library to easily implement different languages and translate messages.",
+    "type": "library",
+    "license": "LGPL-v2.1",
+    "require": {
+        "php": ">=8.0.0",
+        "pocketmine/pocketmine-mp": "4.19.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "1.10.12"
+    },
+    "authors": [
+        {
+            "name": "Legend Network TEAM",
+            "email": "dev@legendnetwork.us"
+        },
+        {
+            "name": "Armen Deroian",
+            "email": "contact@armenderoian.dev"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Legendnetwork\\Language\\": "src/legendnetwork/language/"
+        }
+    },
+    "minimum-stability": "dev"
+}
